@@ -1,0 +1,52 @@
+.form-contact{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}   
+
+.form-cnnt{
+    text-align: center;
+    margin: 3rem 0rem;
+}
+
+.form-cnnt .cnt-input{
+    padding: .4rem;
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    margin: 1rem 0rem;
+}
+.error{
+    color: red;
+}
+.form-cnnt .cnt-input:focus{
+    outline: none;
+    border-bottom: 2px solid var(--btn-color);
+}
+
+.form-cnnt textarea{
+    padding: .5rem;
+    border: 2px solid var(--secondary-color);
+    background:none;
+}
+
+.form-cnt textarea:focus{
+    outline: none;
+    border: 2px solid var(--btn-color);
+
+}
+
+
+div.viewAll-btn a button, .sub{
+    padding: .3rem 1rem;
+    font-size: 1rem;
+    background-color: var(--btn-color);
+    color: var(--secondary-color);
+    transition: all 200ms ease-in-out;
+}
+
+div.viewAll-btn a button:hover, .sub:hover{
+    transform: scale(1.1);
+}

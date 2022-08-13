@@ -1,0 +1,29 @@
+:root{
+    --primary-color : #f7fbff;
+    --secondary-color: #171e2b;
+    --bg-color: #e2f0ff;
+    --btn-color: #fb8574;
+}
+
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+    width: 80%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: var(--primary-color); 
+  }
+  th { 
+    background: var(--secondary-color); 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
